@@ -1,7 +1,7 @@
 html {
   background-color: #e4e9fd;
   background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
-  min-height: 10=0vh;
+  min-height: 100vh;
   font-family: "helvetica neue";
   margin: 0;
   padding: 0;
@@ -106,7 +106,7 @@ input[type="text"] {
   font-size: 20px;
   font-weight: 200;
   width: 313px;
-  border-bottom: 2px solid #a683e3;
+  border-bottom: 2px solid transparent;
   outline: none;
   transition: border-color 0.3s;
 }
@@ -124,7 +124,9 @@ input[type="text"]:focus {
 ::placeholder:hover {
   color: #7c5ac2;
 }
-
+.about {
+  height: 100vh;
+}
 footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
